@@ -17,3 +17,19 @@ student_detailes={
     "grade": 10,
 }
 print(student_detailes["name"]) #op:arahan
+
+'''2️⃣ Add a New Key
+
+Create a dictionary:
+car = {
+    "brand": "Toyota",
+    "model": "Camry"
+}
+Add a new key year = 2022 and print the dictionary'''
+
+car = {
+    "brand": "Toyota",
+    "model": "Camry"
+}
+car["year"]=2022
+print(car)
