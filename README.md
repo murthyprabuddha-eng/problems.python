@@ -10,7 +10,7 @@ age
 grade
 
 Print only the student's name.'''
-
+#answer
 student_detailes={
     "name":"arahan",
     "age":18,
@@ -26,10 +26,27 @@ car = {
     "model": "Camry"
 }
 Add a new key year = 2022 and print the dictionary'''
-
+#answer
 car = {
     "brand": "Toyota",
     "model": "Camry"
 }
 car["year"]=2022
 print(car)
+
+
+'''3️⃣ Update a Value
+
+Given:
+person = {
+    "name": "Aman",
+    "age": 25
+}
+Update the age to 26 and print the dictionary.'''
+#answer
+person = {
+    "name": "Aman",
+    "age": 25
+}
+person["age"]=26
+print(person)
